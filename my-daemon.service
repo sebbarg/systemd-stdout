@@ -1,0 +1,7 @@
+# put me in /etc/systemd/system/my-daemon.service
+# chmod 644 /etc/systemd/system/my-daemon.service
+
+# more on systemd folders (lib vs etc) here: https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files
+
+[Service]
+ExecStart=/home/seb/code/systemd-stdout/my-daemon.sh
